@@ -1,0 +1,68 @@
+button {
+  border-radius: 30px;
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  border: 3px double #AB99D9;
+  box-shadow: 0 5px #8271ac;
+}
+
+button:hover {
+  background-color: #e4d5ff;
+}
+ 
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px #8271ac;
+}
+
+#b4 {
+  border: 3px double #99bcd9;
+  box-shadow: 0 5px #719bac;
+}
+
+#b4:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px #719bac;
+}
+
+#perso {
+  width: 250px;
+  height: 45px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+h1 {
+  color: #AB99D9;
+  font-family: Helvetica;
+  text-shadow: 0.05em 0.05em 0.08em black;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+#memoji {
+  text-align: center;
+}
+
+#changer {
+  text-align: center;
+  padding: 20px 5px 20px;
+}
+
+#compteur {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+/*# sourceMappingURL=clicker.css.map */

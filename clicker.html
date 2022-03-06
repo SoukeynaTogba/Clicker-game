@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="clicker.css" rel="stylesheet">
+
+    <title> THE CLICKER GAME</title>
+</head>
+
+<body onload="OnLoad()")>
+
+    <div id="titre">
+    <h1>THE CLICKER GAME</h1>
+    </div>
+
+    <div id="règle">
+        <p>Cliquez sur le personnage pour gagner des points et achetez des bonus grâce à ces derniers pour en avoir encore plus ! </p>
+    </div>
+
+    <div id="bonus">
+
+        <button id="b1" onclick="moins1()">Bonus 1</button><span id="diminuer1"></span>
+        <button id="b2" onclick="moins2()">Bonus 2</button><span id="diminuer2"></span>
+        <button id="b3" onclick="moins3()">Bonus 3</button><span id="diminuer3"></span>
+        <button id="b4" onclick="reset()">RESET</button>
+    </div>
+
+    <div id="memoji">
+        <img id="image" src = "img/emojiS.png"  max-width=30% height=auto onclick="ajouter1()">
+    </div>
+
+    <div id="changer">
+        <button id="perso" onclick="imageSuivante()">Changer de personnage  </button>
+    </div>
+
+    <div id="points"> 
+        <p><span id="compteur"></span></p>
+       
+    </div>
+
+    
+   
+
+</body>
+
+<script type="text/javascript" src="clicker.js"></script>
+</html>
